@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import { PopularUser } from "../components/common";
-import { Header } from "../components/ui";
-import styles from "../styles/Home.module.css";
+import { UserProfile } from "../../components/common";
+import { Header } from "../../components/ui";
+import styles from "../../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
     <div>
       <Header />
       <div className={styles.container}>
-        <PopularUser />
+        <UserProfile />
       </div>
     </div>
   );
